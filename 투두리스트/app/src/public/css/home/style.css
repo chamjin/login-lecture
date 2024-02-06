@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Her-Leeoksun";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_ten@1.0/Her-Leeoksun.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Her-Leeoksun";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mainBox {
+  background-color: #dcdcdc;
+  margin-top: 50px;
+  padding: 0px 50px 30px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+ul {
+  padding: 0;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+input[type="button"] {
+  margin-left: 10px;
+}
+
+input[type="text"] {
+  font-family: "Her-Leeoksun";
+  border: 0;
+  outline: none;
+  height: 30px;
+  width: 200px;
+  border-radius: 30px;
+  padding: 5px;
+}
+
+#taskInput {
+  margin: 0;
+  margin-bottom: 10px;
+  width: 300px;
+  font-size: 25px;
+  padding-left: 15px;
+}
+
+#dataTask {
+  width: 250px;
+  height: 20px;
+}
